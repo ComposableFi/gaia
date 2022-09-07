@@ -118,6 +118,7 @@ import (
 	gaiaappparams "github.com/cosmos/gaia/v8/app/params"
 	"github.com/cosmos/gaia/v8/x/globalfee"
 
+	beefyclienttypes "github.com/ComposableFi/ics11-beefy/types"
 	// unnamed import of statik for swagger UI support
 	_ "github.com/cosmos/cosmos-sdk/client/docs/statik"
 )
@@ -153,7 +154,11 @@ var (
 		feegrantmodule.AppModuleBasic{},
 		authzmodule.AppModuleBasic{},
 		groupmodule.AppModuleBasic{},
-		ibc.AppModuleBasic{},
+		ibc.NewAppModuleBasic(
+			[]ibc.ClientRegisterer{
+				beefyclienttypes.RegisterInterfaces,
+			},
+		),
 		upgrade.AppModuleBasic{},
 		evidence.AppModuleBasic{},
 		transfer.AppModuleBasic{},
