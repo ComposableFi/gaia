@@ -307,10 +307,10 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-require github.com/ComposableFi/ics11-beefy v0.0.0-20220905144300-fa5452d31fd5
+require github.com/ComposableFi/ics11-beefy v0.0.0-20220907155952-3cbc966f47ce
 
 replace (
-	github.com/cosmos/ibc-go/v5 => github.com/ComposableFi/ibc-go/v5 v5.0.0-20220907101012-44705a6fbb0c
+	github.com/cosmos/ibc-go/v5 => github.com/ComposableFi/ibc-go/v5 v5.0.0-20220907155307-dda8cd55651d
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 	github.com/zondax/hid => github.com/zondax/hid v0.9.0
 )

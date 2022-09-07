@@ -1,5 +1,5 @@
 cosmossdk.io/math v1.0.0-beta.2/go.mod h1:u/MXvf8wbUbCsAEyQSSYXXMsczAsFX48e2D6JI86T4o=
-github.com/ComposableFi/ibc-go/v5 v5.0.0-20220907101012-44705a6fbb0c/go.mod h1:Wqsguq98Iuns8tgTv8+xaGYbC+Q8zJfbpjzT6IgMJbs=
+github.com/ComposableFi/ibc-go/v5 v5.0.0-20220907155307-dda8cd55651d/go.mod h1:Wqsguq98Iuns8tgTv8+xaGYbC+Q8zJfbpjzT6IgMJbs=
 github.com/DATA-DOG/go-sqlmock v1.5.0 h1:Shsta01QNfFxHCfpW6YH2STWB0MudeXXEWMr20OEh60=
 github.com/GaijinEntertainment/go-exhaustruct/v2 v2.2.2/go.mod h1:xj0D2jwLdp6tOKLheyZCsfL0nz8DaicmJxSwj3VcHtY=
 github.com/bufbuild/buf v1.7.0/go.mod h1:Go40fMAF46PnPLC7jJgTQhAI95pmC0+VtxFKVC0qLq0=
@@ -32,6 +32,7 @@ github.com/golangci/golangci-lint v1.48.0/go.mod h1:5N+oxduCho+7yuccW69upg/O7cxj
 github.com/gookit/color v1.5.1/go.mod h1:wZFzea4X8qN6vHOSP2apMb4/+w/orMznEzYsIHPaqKM=
 github.com/gotestyourself/gotestyourself v2.2.0+incompatible h1:AQwinXlbQR2HvPjQZOmDhRqsv5mZf+Jb1RnSLxcqZcI=
 github.com/jhump/protoreflect v1.12.1-0.20220721211354-060cc04fc18b/go.mod h1:JytZfP5d0r8pVNLZvai7U/MCuTWITgrI4tTg7puQFKI=
+github.com/klauspost/cpuid v0.0.0-20170728055534-ae7887de9fa5 h1:2U0HzY8BJ8hVwDKIzp7y4voR9CX/nvcfymLmg2UiOio=
 github.com/lazyledger/smt v0.2.1-0.20210709230900-03ea40719554/go.mod h1:9+Pb2/tg1PvEgW7aFx4bFhDE4bvbI03zuJ8kb7nJ9Jc=
 github.com/leodido/go-urn v1.2.1/go.mod h1:zt4jvISO2HfUBqxjfIshjdMTYS56ZS/qv49ictyFfxY=
 github.com/mattn/go-sqlite3 v1.14.9 h1:10HX2Td0ocZpYEjhilsuo6WWtUqttj2Kb0KtD86/KYA=
